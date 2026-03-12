@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 public class ProductFinal {
     public static void main(String[] args) {
-        String filePath = "C:\\workspaces\\seleniumwebdriver\\AmazonProductProcessor\\src\\products.csv";
+        String filePath = "src/products.csv";
         List<Product> products = CSVReader.readProducts(filePath);
         if (products.isEmpty()) {
             System.out.println("No products found.");
