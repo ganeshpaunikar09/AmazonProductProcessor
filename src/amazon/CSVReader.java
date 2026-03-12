@@ -48,7 +48,7 @@ public class CSVReader {
 
     // Test main for my test 
     public static void main(String[] args) {
-        String filePath = "C:\\workspaces\\seleniumwebdriver\\AmazonProductProcessor\\src\\products.csv";
+        String filePath = "src/products.csv";
         List<Product> productList = readProducts(filePath);
 
         productList.forEach(System.out::println);
